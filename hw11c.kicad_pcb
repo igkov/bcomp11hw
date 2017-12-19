@@ -13,6 +13,14 @@
   )
 
   (page A4)
+  (title_block
+    (title "BCOMP11 Main Board")
+    (date 2017-12-19)
+    (rev 2)
+    (comment 1 2.0)
+    (comment 2 "Igor Kovalenko")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
