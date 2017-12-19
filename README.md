@@ -1,2 +1,3 @@
 # bcomp11hw
-BCOMP11 hardware project
+
+Hardware made in KiCad software. This project of BCOMP11 hardware. Description on http://igorkov.org/bcomp11 and http://igorkov.org/bcomp11v2 pages.
