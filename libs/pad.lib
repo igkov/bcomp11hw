@@ -1,0 +1,15 @@
+EESchema-LIBRARY Version 2.3  Date: 31.07.2012 23:26:16
+#encoding utf-8
+#
+# PAD
+#
+DEF PAD X 0 40 Y Y 1 F N
+F0 "X" 0 150 60 H V C CNN
+F1 "PAD" 0 -150 60 H V C CNN
+DRAW
+C 0 0 71 0 1 0 N
+X ~ 1 250 0 180 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
