@@ -1,4 +1,4 @@
-update=19.12.2017 12:11:58
+update=05.02.2018 15:54:12
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=out/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=libs
@@ -68,13 +78,4 @@ LibName36=libs/LP2985
 LibName37=libs/mcp2551
 LibName38=libs/pad
 LibName39=libs/am6326
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=out/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName40=libs/tja1055
