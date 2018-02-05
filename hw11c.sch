@@ -49,7 +49,7 @@ Title "BCOMP11"
 Date "2017-12-19"
 Rev "4"
 Comp "igorkov.org/bcomp11v2"
-Comment1 "v2.0"
+Comment1 "v2.1"
 Comment2 "igorkov"
 Comment3 ""
 Comment4 ""
@@ -1689,8 +1689,8 @@ Text Label 9200 4750 2    60   ~ 0
 Wire Wire Line
 	9000 4750 9200 4750
 Wire Wire Line
-	7850 5150 7550 5150
-Text Label 7550 5150 0    60   ~ 0
+	7500 5150 7850 5150
+Text Label 7500 5150 0    60   ~ 0
 5V
 Wire Wire Line
 	7850 5250 7700 5250
@@ -1700,4 +1700,6 @@ Connection ~ 7700 5150
 NoConn ~ 7850 4750
 NoConn ~ 7850 5050
 NoConn ~ 7850 5350
+Text Notes 7600 5700 0    60   ~ 0
+Use only one PHY driver: MCP2551 or TJA1055.
 $EndSCHEMATC
