@@ -5,6 +5,7 @@ Hardware made in KiCad software. This project of BCOMP11 hardware. Description o
 Other information:
 * [Using CAN-PHY drivers](https://github.com/igkov/bcomp11hw/wiki/CAN-PHY-drivers)
 * [Using universal I/O](https://github.com/igkov/bcomp11hw/wiki/Universal-IO)
+* [NMPS schemes](https://github.com/igkov/bcomp11hw/wiki/NMPS-schemes)
 
 ## Scheme:
 
