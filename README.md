@@ -2,6 +2,10 @@
 
 Hardware made in KiCad software. This project of BCOMP11 hardware. Description on http://igorkov.org/bcomp11 and http://igorkov.org/bcomp11v2 pages.
 
+Actual Gerber files here:
+* Version 2.0 - http://igorkov.org/zip/bcomp11v2-gerber.zip
+* Version 2.3 - http://igorkov.org/zip/bcomp11v2-gerber23.zip
+
 Other information:
 * [Using CAN-PHY drivers](https://github.com/igkov/bcomp11hw/wiki/CAN-PHY-drivers)
 * [Using universal I/O](https://github.com/igkov/bcomp11hw/wiki/Universal-IO)
