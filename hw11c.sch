@@ -753,7 +753,6 @@ Text Label 5650 1850 2    60   ~ 0
 BEEP
 NoConn ~ 5350 2250
 NoConn ~ 5350 2550
-NoConn ~ 5350 2750
 NoConn ~ 5350 2850
 NoConn ~ 5350 3900
 NoConn ~ 8450 3700
@@ -1896,8 +1895,8 @@ Text Label 10600 950  2    60   ~ 0
 12V
 Wire Wire Line
 	10600 950  10350 950 
-Text Notes 5950 750  0    60   ~ 0
-EXT. BUTTONS
+Text Notes 5700 750  0    60   ~ 0
+EXT. BUTTONS (AN1)
 $Comp
 L R R27
 U 1 1 5B1C0E7B
@@ -1916,12 +1915,12 @@ Text Label 8100 900  2    60   ~ 0
 3.3V
 Wire Wire Line
 	8100 900  7800 900 
-Text Notes 7500 750  0    60   ~ 0
-TERMISTOR
+Text Notes 7350 750  0    60   ~ 0
+TERMISTOR (AN2)
 Text Notes 9900 750  0    60   ~ 0
 EXTERNAL VOLTAGE
-Text Notes 8850 750  0    60   ~ 0
-FUEL LEVEL
+Text Notes 8600 750  0    60   ~ 0
+FUEL LEVEL (AN3)
 Text Notes 4550 750  0    60   ~ 0
 DEFAULT USE:
 Wire Notes Line
@@ -1940,4 +1939,17 @@ Wire Notes Line
 	4500 800  5250 800 
 Wire Notes Line
 	10900 600  10900 800 
+$Comp
+L PAD X18
+U 1 1 5B33AFBF
+P 5750 2750
+F 0 "X18" H 5450 2750 60  0000 C CNN
+F 1 "ADC6" H 5200 2750 60  0000 C CNN
+F 2 "libs:PAD" H 5750 2750 60  0001 C CNN
+F 3 "" H 5750 2750 60  0001 C CNN
+	1    5750 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 2750 5500 2750
 $EndSCHEMATC
