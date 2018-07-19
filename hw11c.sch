@@ -747,7 +747,6 @@ Text Label 2000 1450 0    60   ~ 0
 NoConn ~ 2950 1950
 NoConn ~ 2950 3200
 NoConn ~ 2950 3300
-NoConn ~ 2950 3400
 NoConn ~ 2950 3500
 Text Label 5650 1850 2    60   ~ 0
 BEEP
@@ -1487,9 +1486,6 @@ Wire Wire Line
 	9900 3000 9900 3750
 Wire Wire Line
 	9900 3750 10000 3750
-Connection ~ 9600 3550
-Wire Wire Line
-	8450 3550 9600 3550
 Connection ~ 9100 3450
 Wire Wire Line
 	9100 3450 9100 3150
@@ -1952,4 +1948,27 @@ F 3 "" H 5750 2750 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 2750 5500 2750
+Text Label 9050 3550 2    60   ~ 0
+CAN_RS
+Wire Wire Line
+	8450 3550 9050 3550
+Text Label 2600 3400 0    60   ~ 0
+CAN_RS
+Wire Wire Line
+	2600 3400 2950 3400
+$Comp
+L R R28
+U 1 1 5B50A1AD
+P 9200 3550
+F 0 "R28" V 9280 3550 50  0000 C CNN
+F 1 "10k" V 9200 3550 50  0000 C CNN
+F 2 "libs:R_0603" V 9130 3550 50  0001 C CNN
+F 3 "" H 9200 3550 50  0001 C CNN
+	1    9200 3550
+	0    1    1    0   
+$EndComp
+Text Label 9500 3550 2    60   ~ 0
+5V
+Wire Wire Line
+	9500 3550 9350 3550
 $EndSCHEMATC
